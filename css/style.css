@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Catamaran&display=swap");
+.large-title {
+  font-size: 80px;
+}
+
+.header-font {
+  font-family: 'Catamaran', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("../img/city.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("../img/terminal.jpg");
+  min-height: 100%;
+}
+
+.bgimg-3 {
+  background-image: url("../img/keyboard.jpg");
+  min-height: 100%;
+}
+
+.bgimg-4 {
+  background-image: url("../img/desk.jpg");
+  min-height: 100%;
+}
+
+.bgimg-5 {
+  background-image: url("../img/cityscape-4292702_1920.jpg");
+  min-height: 100%;
+}
+
+.card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 5px;
+  /* 5px rounded corners */
+}
+
+.photo {
+  border-radius: 5px;
+  border: 10px solid white;
+}
+
+.box {
+  background-color: #363636;
+}
+
+.box-light {
+  background-color: white;
+}
+
+.profile {
+  max-height: 400px;
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar-menu {
+    background-color: #4a4a4a;
+  }
+}
+
+.navbar-item {
+  color: white;
+}
+
+.devicon {
+  font-size: 3em;
+}
+
+.social-media {
+  font-size: 2em;
+}
+
+/* unvisited link */
+a:link, a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: #00d1b2;
+}
+/*# sourceMappingURL=style.css.map */

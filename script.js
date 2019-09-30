@@ -24,6 +24,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+// Close navbar when a navbar-item has been clicked
+
+const navbarMenu = document.getElementById('navbarBasicExample');
+
+navbarMenu.addEventListener('click', () => {
+  navbarMenu.classList.remove('is-active');
+});
+
 // Text CSS effect
 
 var TxtType = function(el, toRotate, period) {

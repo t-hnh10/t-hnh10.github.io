@@ -96,12 +96,12 @@ body, html {
   font-size: 2em;
 }
 
-/* unvisited link */
+// Unvisited link
 a:link, a:visited {
   color: white;
 }
 
-/* mouse over link */
+// Mouse over link
 a:hover {
   color: hsl(171, 100%, 41%);
 }

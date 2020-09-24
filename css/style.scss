@@ -24,6 +24,10 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 
+  @media only screen and (max-device-width: 1366px) {
+    background-attachment: scroll;
+  }
+
 }
 .bgimg-1 {
   background-image: url("../img/background/city.jpg");

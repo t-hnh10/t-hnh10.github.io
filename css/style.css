@@ -20,6 +20,12 @@ body, html {
   background-size: cover;
 }
 
+@media only screen and (max-device-width: 1366px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+    background-attachment: scroll;
+  }
+}
+
 .bgimg-1 {
   background-image: url("../img/background/city.jpg");
   min-height: 100%;
